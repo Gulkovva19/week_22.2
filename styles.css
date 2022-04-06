@@ -1,0 +1,75 @@
+.title{
+    color:rgba(255, 99, 132, 0.5);
+}
+
+.day{
+    color: #8bc6bd;
+}
+
+.countdown__input {
+    width: 700px;
+}
+
+.daywork__button {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, rgba(255, 99, 132, 0.2), rgba(54, 162, 235, 0.2));
+    background-size: 200% auto;
+    transition: .5s;
+    border: none;
+}
+
+.daywork__button:hover {
+    background-position: right center;
+}
+
+#weekday__button{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, rgba(255, 206, 86, 0.2), rgba(153, 102, 255, 0.2));
+    background-size: 200% auto;
+    transition: .5s;
+    border: none;
+}
+
+#weekday__button:hover {
+    background-position: right center;
+}
+
+#count__button{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, rgba(255, 206, 86, 0.2), rgba(153, 102, 255, 0.2));
+    background-size: 200% auto;
+    transition: .5s;
+    border: none;
+}
+
+#count__button:hover {
+    background-position: right center;
+}
+
+.weekday__input{
+    border: 1px solid rgba(255, 99, 132, 0.5);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <h1 class="title">Количество часов по дням недели</h1>
+        <div class="daywork__box">
+            <label for="mon_work" class="day">Понедельник:</label>
+            <input type="number" class="weekday__input" id="mon_work" value="" />
+            <button class="daywork__button">Добавить</button>
+        </div>
+        <div class="daywork__box">
+            <label for="tue_work" class="day">Вторник:</label>
+            <input type="number" class="weekday__input" id="tue_work" value="" />
+            <button class="daywork__button">Добавить</button>
+        </div>
+        <div class="daywork__box">
+            <label for="wed_work" class="day">Среда:</label>
+            <input type="number" class="weekday__input" id="wed_work" value="" />
+            <button class="daywork__button">Добавить</button>
+        </div>
+        <div class="daywork__box">
+            <label for="thu_work" class="day">Четверг:</label>
+            <input type="number" class="weekday__input" id="thu_work" value="" />
+            <button class="daywork__button">Добавить</button>
+        </div>
+        <div class="daywork__box">
+            <label for="fri_work" class="day">Пятница:</label>
+            <input type="number" class="weekday__input" id="fri_work" value="" />
+            <button class="daywork__button">Добавить</button>
+        </div>
+        <div class="daywork__box">
+            <label for="sat_work" class="day">Суббота:</label>
+            <input type="number" class="weekday__input" id="sat_work" value="" />
+            <button class="daywork__button">Добавить</button>
+        </div>
+        <button id="weekday__button">Очистить</button>
+    </div>
+    <div class="countdown__input">
+        <canvas id="myChart"></canvas>
+    </div>
+    <div>
+        <h1 class="title">Общее количество часов</h1>
+        <button id="count__button">Посчитать</button>
+        <div id="hours"></div>
+    </div>
+    <div class="countdown__input">
+        <canvas id="mChart"></canvas>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>

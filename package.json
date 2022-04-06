@@ -1,0 +1,24 @@
+{
+  "name": "week_22.2-npm",
+  "version": "1.0.0",
+  "description": "week_22.2 test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gulkovva19/week_22.2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gulkovva19/week_22.2/issues"
+  },
+  "homepage": "https://github.com/Gulkovva19/week_22.2#readme",
+  "dependencies": {
+    "chart": "^0.1.2",
+    "chart.js": "^3.7.1",
+    "moment": "^2.29.2"
+  }
+}
